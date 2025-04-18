@@ -4,6 +4,8 @@ from py_compile import main
 import random
 from tracemalloc import start
 
+
+
 while True:
     bintang_position = random.randint(1, 4)
     Betuk_kotak = "[]"
@@ -16,14 +18,13 @@ while True:
 
     kotak_kosong = '---'.join(kotak_kosong)
     kotak = '---'.join(kotak)
+    print("selamat datang di permainan tebak bintang")
     print(f''' halo  coba  perhatikan kotak di sampig ini 
         ''')
 
 
         #print(kotak)
         #print(f"posisi: {bintang_position}")
-
-
 
     pilih_user = int(input(f"Menurut kamu icon bintang ada di momor berapa {kotak_kosong} ?  [1 / 2/ 3/ 4]: "))
 
