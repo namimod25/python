@@ -1,5 +1,5 @@
 from tracemalloc import start
-from libs import selamat_datang
+from sesi3.libs import selamat_datang
 from game import tebak_angka
 
 def main():

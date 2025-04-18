@@ -1,6 +1,11 @@
-def selamat_datang(title):
+import socket
+
+PC_name = socket.gethostname()
+
+def selamat_datang():
     
-    style = "-" * len(title)
+    
+    style = "-" * (len(PC_name) + 6)
     print(style)
-    print(f"selamat datang di permainan tebak bintang")
+    print(f"{PC_name}")
     print(style)

@@ -1,5 +1,4 @@
 import __main__
-
 from py_compile import main
 import random
 from tracemalloc import start
@@ -18,7 +17,6 @@ while True:
 
     kotak_kosong = '---'.join(kotak_kosong)
     kotak = '---'.join(kotak)
-    print("selamat datang di permainan tebak bintang")
     print(f''' halo  coba  perhatikan kotak di sampig ini 
         ''')
 
@@ -46,5 +44,5 @@ while True:
                 print("program di selesai!")
                 break
             
-    if __main__ == '__main__':
+    if __main__ == '__main__': 
        start()
